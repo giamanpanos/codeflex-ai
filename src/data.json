@@ -1,0 +1,272 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Peter",
+      "age": 34,
+      "goal": "Weight Loss",
+      "diet": {
+        "dailyCalories": 1700,
+        "meals": [
+          {
+            "name": "Breakfast",
+            "foods": [
+              "Lactose-free chia pudding with almond milk and blueberries",
+              "Boiled egg",
+              "Green tea"
+            ]
+          },
+          {
+            "name": "Lunch",
+            "foods": [
+              "Grilled chicken breast",
+              "Steamed green beans and carrots",
+              "Sweet potato mash",
+              "Olive oil drizzle"
+            ]
+          },
+          {
+            "name": "Dinner",
+            "foods": [
+              "Stir-fried tofu with mixed vegetables (bell peppers, broccoli, zucchini)",
+              "Brown rice",
+              "Sesame oil and tamari sauce"
+            ]
+          },
+          {
+            "name": "Snack",
+            "foods": [
+              "Rice cakes with almond butter",
+              "Cucumber slices with hummus"
+            ]
+          }
+        ]
+      },
+      "workoutPlan": {
+        "schedule": ["Monday", "Tuesday", "Thursday", "Saturday"],
+        "exercises": [
+          {
+            "day": "Monday",
+            "routines": [
+              { "name": "Bodyweight Squats", "reps": 12, "sets": 3 },
+              {
+                "name": "Dumbbell Chest Press (on floor)",
+                "reps": 10,
+                "sets": 3
+              },
+              { "name": "Glute Bridges", "reps": 15, "sets": 3 },
+              { "name": "Plank Hold", "reps": 30, "sets": 3 }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "routines": [
+              { "name": "Dumbbell Rows (1-arm)", "reps": 10, "sets": 3 },
+              {
+                "name": "Step-ups (use stairs or sturdy chair)",
+                "reps": 12,
+                "sets": 3
+              },
+              { "name": "Dumbbell Shoulder Press", "reps": 10, "sets": 3 },
+              { "name": "Standing Calf Raises", "reps": 15, "sets": 3 }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "routines": [
+              { "name": "Dumbbell Goblet Squats", "reps": 12, "sets": 3 },
+              { "name": "Push-ups (knee or standard)", "reps": 10, "sets": 3 },
+              { "name": "Bird-Dog", "reps": 10, "sets": 3 },
+              { "name": "Side Plank", "reps": 20, "sets": 2 }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "routines": [
+              { "name": "Dumbbell Deadlifts", "reps": 10, "sets": 3 },
+              {
+                "name": "Reverse Lunges (bodyweight or dumbbells)",
+                "reps": 12,
+                "sets": 3
+              },
+              { "name": "Dumbbell Bicep Curls", "reps": 12, "sets": 3 },
+              { "name": "Mountain Climbers", "reps": 20, "sets": 3 }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Michael",
+      "age": 28,
+      "goal": "Muscle Gain",
+      "diet": {
+        "dailyCalories": 3200,
+        "meals": [
+          {
+            "name": "Breakfast",
+            "foods": [
+              "6 egg omelette with spinach and cheese",
+              "Whole grain toast",
+              "Avocado slices",
+              "Banana smoothie with whey protein"
+            ]
+          },
+          {
+            "name": "Lunch",
+            "foods": [
+              "Grilled salmon fillet",
+              "Quinoa and roasted vegetables",
+              "Greek yogurt with honey"
+            ]
+          },
+          {
+            "name": "Dinner",
+            "foods": [
+              "Lean steak or grilled chicken",
+              "Brown rice or whole grain pasta",
+              "Steamed broccoli and asparagus"
+            ]
+          },
+          {
+            "name": "Snacks",
+            "foods": [
+              "Protein bar",
+              "Cottage cheese with pineapple",
+              "Almonds and dried fruit"
+            ]
+          }
+        ]
+      },
+      "workoutPlan": {
+        "schedule": ["Monday", "Tuesday", "Wednesday", "Friday", "Saturday"],
+        "exercises": [
+          {
+            "day": "Monday",
+            "routines": [
+              { "name": "Barbell Squats", "reps": 8, "sets": 4 },
+              { "name": "Leg Press", "reps": 10, "sets": 4 },
+              { "name": "Romanian Deadlifts", "reps": 10, "sets": 3 },
+              { "name": "Calf Raises", "reps": 15, "sets": 4 }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "routines": [
+              { "name": "Bench Press", "reps": 8, "sets": 4 },
+              { "name": "Incline Dumbbell Press", "reps": 10, "sets": 3 },
+              { "name": "Chest Fly Machine", "reps": 12, "sets": 3 },
+              { "name": "Tricep Dips", "reps": 10, "sets": 3 }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "routines": [
+              { "name": "Deadlifts", "reps": 6, "sets": 4 },
+              { "name": "Pull-ups", "reps": 10, "sets": 3 },
+              { "name": "Barbell Rows", "reps": 8, "sets": 3 },
+              { "name": "Hammer Curls", "reps": 10, "sets": 3 }
+            ]
+          },
+          {
+            "day": "Friday",
+            "routines": [
+              { "name": "Overhead Press", "reps": 8, "sets": 4 },
+              { "name": "Lateral Raises", "reps": 12, "sets": 3 },
+              { "name": "Shrugs", "reps": 15, "sets": 3 },
+              { "name": "Front Plate Raises", "reps": 10, "sets": 3 }
+            ]
+          },
+          {
+            "day": "Saturday",
+            "routines": [
+              { "name": "Barbell Hip Thrusts", "reps": 10, "sets": 4 },
+              { "name": "Walking Lunges", "reps": 12, "sets": 3 },
+              { "name": "Plank Hold", "reps": 60, "sets": 3 },
+              { "name": "Hanging Leg Raises", "reps": 15, "sets": 3 }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "John",
+      "age": 45,
+      "goal": "General Fitness",
+      "diet": {
+        "dailyCalories": 2200,
+        "meals": [
+          {
+            "name": "Breakfast",
+            "foods": [
+              "Oatmeal with almond milk, banana, and chia seeds",
+              "Black coffee or green tea"
+            ]
+          },
+          {
+            "name": "Lunch",
+            "foods": [
+              "Chickpea and quinoa salad with olive oil dressing",
+              "Grilled halloumi cheese",
+              "Apple"
+            ]
+          },
+          {
+            "name": "Dinner",
+            "foods": [
+              "Vegetable curry with tofu",
+              "Brown rice",
+              "Mixed green salad with tahini dressing"
+            ]
+          },
+          {
+            "name": "Snacks",
+            "foods": [
+              "Greek yogurt with berries",
+              "Carrot sticks with hummus",
+              "Handful of mixed nuts"
+            ]
+          }
+        ]
+      },
+      "workoutPlan": {
+        "schedule": ["Monday", "Wednesday", "Friday"],
+        "exercises": [
+          {
+            "day": "Monday",
+            "routines": [
+              {
+                "name": "Treadmill Warm-up (brisk walk)",
+                "reps": 10,
+                "sets": 1
+              },
+              { "name": "Machine Chest Press", "reps": 12, "sets": 3 },
+              { "name": "Lat Pulldown", "reps": 12, "sets": 3 },
+              { "name": "Seated Row", "reps": 12, "sets": 3 }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "routines": [
+              { "name": "Stationary Bike Warm-up", "reps": 10, "sets": 1 },
+              { "name": "Leg Press", "reps": 12, "sets": 3 },
+              { "name": "Leg Extensions", "reps": 15, "sets": 3 },
+              { "name": "Hamstring Curls", "reps": 15, "sets": 3 }
+            ]
+          },
+          {
+            "day": "Friday",
+            "routines": [
+              { "name": "Elliptical Warm-up", "reps": 10, "sets": 1 },
+              { "name": "Dumbbell Shoulder Press", "reps": 12, "sets": 3 },
+              { "name": "Cable Triceps Pushdown", "reps": 12, "sets": 3 },
+              { "name": "Bicep Curls (EZ bar)", "reps": 12, "sets": 3 }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
