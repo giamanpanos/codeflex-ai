@@ -83,10 +83,10 @@ const Navbar = () => {
         </nav>
 
         {/* NAVIGATION MOBILE */}
-        <div className="sm:hidden">
+        <div className="sm:hidden max-h-6">
           <DropdownMenu>
             <DropdownMenuTrigger>
-              <Menu />
+              <Menu className="size-6" />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               {isSignedIn ? (
