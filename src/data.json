@@ -55,7 +55,7 @@
                 "sets": 3
               },
               { "name": "Glute Bridges", "reps": 15, "sets": 3 },
-              { "name": "Plank Hold", "reps": 30, "sets": 3 }
+              { "name": "Crunches", "reps": 15, "sets": 3 }
             ]
           },
           {
@@ -77,7 +77,7 @@
               { "name": "Dumbbell Goblet Squats", "reps": 12, "sets": 3 },
               { "name": "Push-ups (knee or standard)", "reps": 10, "sets": 3 },
               { "name": "Bird-Dog", "reps": 10, "sets": 3 },
-              { "name": "Side Plank", "reps": 20, "sets": 2 }
+              { "name": "Reverse Crunches", "reps": 15, "sets": 3 }
             ]
           },
           {
@@ -183,7 +183,7 @@
             "routines": [
               { "name": "Barbell Hip Thrusts", "reps": 10, "sets": 4 },
               { "name": "Walking Lunges", "reps": 12, "sets": 3 },
-              { "name": "Plank Hold", "reps": 60, "sets": 3 },
+              { "name": "V-Ups", "reps": 15, "sets": 3 },
               { "name": "Hanging Leg Raises", "reps": 15, "sets": 3 }
             ]
           }
@@ -232,37 +232,96 @@
         ]
       },
       "workoutPlan": {
-        "schedule": ["Monday", "Wednesday", "Friday"],
+        "schedule": ["Tuesday", "Thursday", "Saturday"],
         "exercises": [
           {
-            "day": "Monday",
+            "day": "Tuesday",
             "routines": [
               {
-                "name": "Treadmill Warm-up (brisk walk)",
+                "name": "Dynamic Warm-up (jog in place, arm circles, leg swings)",
                 "reps": 10,
                 "sets": 1
               },
-              { "name": "Machine Chest Press", "reps": 12, "sets": 3 },
-              { "name": "Lat Pulldown", "reps": 12, "sets": 3 },
-              { "name": "Seated Row", "reps": 12, "sets": 3 }
+              {
+                "name": "Bodyweight Squats",
+                "reps": 15,
+                "sets": 3
+              },
+              {
+                "name": "Incline Push-ups",
+                "reps": 12,
+                "sets": 3
+              },
+              {
+                "name": "Glute Bridges",
+                "reps": 15,
+                "sets": 3
+              },
+              {
+                "name": "Mountain Climbers",
+                "reps": 20,
+                "sets": 3
+              }
             ]
           },
           {
-            "day": "Wednesday",
+            "day": "Thursday",
             "routines": [
-              { "name": "Stationary Bike Warm-up", "reps": 10, "sets": 1 },
-              { "name": "Leg Press", "reps": 12, "sets": 3 },
-              { "name": "Leg Extensions", "reps": 15, "sets": 3 },
-              { "name": "Hamstring Curls", "reps": 15, "sets": 3 }
+              {
+                "name": "Warm-up (jumping jacks, arm swings, hip circles)",
+                "reps": 10,
+                "sets": 1
+              },
+              {
+                "name": "Sumo Squats",
+                "reps": 15,
+                "sets": 3
+              },
+              {
+                "name": "Knee Push-ups",
+                "reps": 12,
+                "sets": 3
+              },
+              {
+                "name": "Step-ups on Bench or Stair",
+                "reps": 10,
+                "sets": 3
+              },
+              {
+                "name": "Dead Bug (core exercise)",
+                "reps": 10,
+                "sets": 3
+              }
             ]
           },
           {
-            "day": "Friday",
+            "day": "Saturday",
             "routines": [
-              { "name": "Elliptical Warm-up", "reps": 10, "sets": 1 },
-              { "name": "Dumbbell Shoulder Press", "reps": 12, "sets": 3 },
-              { "name": "Cable Triceps Pushdown", "reps": 12, "sets": 3 },
-              { "name": "Bicep Curls (EZ bar)", "reps": 12, "sets": 3 }
+              {
+                "name": "Warm-up (high knees, shoulder rolls, squats)",
+                "reps": 10,
+                "sets": 1
+              },
+              {
+                "name": "Lunges (alternating legs)",
+                "reps": 10,
+                "sets": 3
+              },
+              {
+                "name": "Push-ups",
+                "reps": 10,
+                "sets": 3
+              },
+              {
+                "name": "Bird-Dog (each side)",
+                "reps": 10,
+                "sets": 3
+              },
+              {
+                "name": "Reverse Crunches",
+                "reps": 15,
+                "sets": 3
+              }
             ]
           }
         ]

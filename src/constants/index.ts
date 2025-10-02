@@ -114,7 +114,7 @@ export const USER_PROGRAMS = [
     equipment_access: "Bodyweight only",
     dietary_restrictions: "Vegetarian",
     workout_plan: {
-      title: "Functional Fitness Program",
+      title: "Total Body Functional Fitness Program",
       weekly_schedule: [
         { day: "Monday", focus: "Bodyweight Strength", duration: "40 min" },
         { day: "Wednesday", focus: "Mobility & Balance", duration: "35 min" },

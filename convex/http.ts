@@ -186,6 +186,7 @@ http.route({
       - For cardio, use "sets": 1, "reps": 1 or another appropriate number
       - NEVER include strings for numerical fields
       - NEVER add extra fields not shown in the example below
+      - Do not use exercises that are measured with time example Plank Hold that is measured in time
       
       Return a JSON object with this EXACT structure:
       {
